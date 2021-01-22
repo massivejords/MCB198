@@ -27,6 +27,6 @@ def coverage_sim():
         if genome[i] >= arg.threshold:
             covered += 1
     
-    print(covered/arg.size)
+    print(covered/arg.size,"% of the genome is covered by at least",arg.threshold,"reads.")
 
 coverage_sim()
